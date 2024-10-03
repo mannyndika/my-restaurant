@@ -1,0 +1,137 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+
+main{
+    background-color: firebrick;
+    color: whitesmoke;
+    width: 300px;
+    padding: 50px;
+    border: 10px solid aqua;
+}
+
+.upper-flex{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    gap: 250px;
+    justify-content: center;
+    background-color: rgb(220,50,50);
+    color: rgb(235, 140, 0);
+    font-size: 20px;
+}
+
+.lower-flex{
+    display: flex;
+    background-image: url("./images/Background.jpg");
+    height: 90vh;
+    width: 100vw;
+}
+
+.upper-title{
+    text-align: left;
+    margin: 20px 5px;
+    color: rgb(235, 140, 0);
+}
+
+.item1{
+    text-align: right;
+    display: flex;
+    color: rgb(235, 140, 0);
+    margin: 20px 5px;
+}
+
+.item2{
+    text-align: center;
+    display: flex;
+    color: rgb(235, 140, 0);
+    margin: 20px;
+}
+
+.item3{
+    display: flex;
+    text-align: left;
+    color: rgb(235, 140, 0);
+    margin: 20px;
+}
+
+.logo{
+    text-align: left;
+}
+
+.lower-title{
+    font-size: 80px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+    color: rgb(220,50,50);
+}
+
+.background{
+    align: left;
+    display: block;
+    height: 100px;
+    width: auto;
+}
+
+.menu-items{
+    color: white;
+    display: flex;
+    gap: 2rem;
+    background-color: rgb(235, 140, 0);
+    background-image: url(./images/Food.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-blend-mode: inherit;
+    height: 90vh;
+    width: 100vw;
+}
+.Bowls{
+    font-size: 1.1rem;
+    height: 25vh;
+    background-image: url("./images/NoodeBowl.jpg");
+    background-size: contain;
+}
+
+.Soups{
+    font-size: 1.1rem;
+    height: 25vh;
+    background-image: url("./images/Soup.webp");
+    background-size: contain;
+}
+
+.Sides{
+    font-size: 1.1rem;
+    height: 25vh;
+    background-image: url("./images/ChineseFood.jpg");
+    background-size: contain;
+}
+
+.Appetizers{
+    font-size: 1.1rem;
+    height: 25vh;
+    background-image: url("./images/Sushi.jpg");
+    background-size: contain;
+}
+
+.Beverages{
+    font-size: 1.1rem;
+    height: 25vh;
+    background-image: url("./images/Coke.jpg");
+    background-size: contain;
+}
+
+.About{
+    font-size: 40px;
+    background-image: url(./images/Food2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: rgb(235, 140, 0);
+    background-blend-mode: inherit;
+    color: rgb(220,50,50);
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+}
